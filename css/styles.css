@@ -1,0 +1,63 @@
+body{
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+/* HEADER */
+.header{
+  background: #020617;
+  border-bottom: 2px solid #38bdf8;
+}
+
+/* BOTONES */
+.btn{
+  background: #38bdf8;
+  color: black;
+}
+
+/* HERO */
+.hero{
+  background: linear-gradient(to right, #020617, #0f172a);
+}
+
+.hero-texto h2{
+  color:#38bdf8;
+}
+
+/* TARJETAS */
+.card{
+  background:#020617;
+  border-left:5px solid #38bdf8;
+}
+
+/* MINI CARDS */
+.mini-card{
+  background:#0f172a;
+  border:1px solid #38bdf8;
+}
+
+/* GALERIA */
+.galeria{
+  display:flex;
+  gap:15px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.galeria img{
+  width:250px;
+  height:180px;
+  object-fit:cover;
+  border-radius:15px;
+  transition:0.3s;
+}
+
+.galeria img:hover{
+  transform:scale(1.05);
+}
+
+/* FOOTER */
+.footer{
+  background:#020617;
+  border-top:1px solid #38bdf8;
+}
