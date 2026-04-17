@@ -1,39 +1,50 @@
 body{
   background: #0f172a;
   color: #e2e8f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
 }
 
 /* HEADER */
 .header{
   background: #020617;
   border-bottom: 2px solid #38bdf8;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* NAV */
+.nav a{
+  color: #e2e8f0;
+  margin: 0 10px;
+  text-decoration: none;
 }
 
 /* BOTONES */
 .btn{
   background: #38bdf8;
   color: black;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 8px;
 }
 
 /* HERO */
 .hero{
+  display: flex;
+  padding: 20px;
   background: linear-gradient(to right, #020617, #0f172a);
-}
-
-.hero-texto h2{
-  color:#38bdf8;
 }
 
 /* TARJETAS */
 .card{
   background:#020617;
   border-left:5px solid #38bdf8;
-}
-
-/* MINI CARDS */
-.mini-card{
-  background:#0f172a;
-  border:1px solid #38bdf8;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
 }
 
 /* GALERIA */
@@ -60,4 +71,6 @@ body{
 .footer{
   background:#020617;
   border-top:1px solid #38bdf8;
+  text-align:center;
+  padding:10px;
 }
